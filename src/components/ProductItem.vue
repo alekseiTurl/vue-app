@@ -4,7 +4,7 @@
 
   <li class="catalog__item" :product="product">
     <router-link class="catalog__pic" :to="{ name: 'product', params: { id: product.id } }">
-      <img :src="product.image" :alt="product.title">
+      <img class="product__img" :src="product.image" :alt="product.title">
     </router-link>
 
     <h3 class="catalog__title">
