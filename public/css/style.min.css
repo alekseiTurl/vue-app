@@ -1145,7 +1145,6 @@ button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    min-height: 200px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -1617,10 +1616,10 @@ button {
         justify-items: center
     }
 
-     .catalog {
-        min-height: 200px;
+    .catalog {
+        min-height: 100vh;
     }
-    
+
     .catalog__list {
         grid-template-columns: 1fr;
         grid-gap: 40px 30px;
@@ -1639,6 +1638,11 @@ button {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .preloader {
+        top: 35%;
+        left: 45%;
     }
 }
 
