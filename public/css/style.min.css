@@ -1636,6 +1636,11 @@ button {
         flex-direction: column;
         align-items: center;
     }
+    
+    .content__catalog {
+        min-height: 200px;
+    }
+
 }
 
 /*# sourceMappingURL=style.min.css.map */
