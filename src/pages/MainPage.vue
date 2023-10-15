@@ -47,7 +47,7 @@ export default {
       filterColor: 0,
 
       page: 1,
-      productsPerPage: 3,
+      productsPerPage: 9,
 
       productsData: null,
 
